@@ -1,0 +1,112 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    color: black;
+    font-size: 80px;
+    font-family: 'Bowlby One', cursive;
+    font-weight: 500;
+}
+
+h2{
+    color: black;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+p{
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Navigation bar */
+/* Code from w3schools - horizontal navigation bar */
+
+ .topnav {
+        overflow: hidden;
+        background-color: #B7B6B6;
+        width: 100%;
+        position: fixed;
+        float: centre;
+        top: 0;
+        left: 0;
+         }
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
+  }
+  
+  .topnav a:hover {
+    background-color: lightgray;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #9F9F9F;
+    color: white;
+  }
+
+.container{
+    text-align: center;
+    margin-top: 350px;
+} 
+
+.container1{
+    text-align: center;
+}
+
+
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+}
+
+  /* For contact button  */
+
+  .smallbutton{
+    background-image: url("linkedin.png");
+    border: none;
+    padding: 10px 20px;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    width: auto;
+    margin: 10px 10px 20px 10px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.smallbutton:hover{
+    border-color: whitesmoke;
+    border-width: 10px;
+}
+
+.buttoncontainer{
+    text-align: center;
+    align-items: flex-start;
+    display: inline-block;
+    width: 1000px;
+    background-color: transparent;
+    margin: 50px 0px 20px 0px;
+} 
